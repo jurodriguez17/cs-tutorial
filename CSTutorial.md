@@ -10,7 +10,8 @@ input.onButtonPressed(Button.A, function () {}
  On the second ``||basic:show leds||`` You will create a 0 in the block. 
  As shown in the example.  
 ```blocks
- basic.showLeds(`
+input.onButtonPressed(Button.A, function () {
+    basic.showLeds(`
         # # # # #
         . . . . #
         . . . # #
@@ -27,14 +28,88 @@ input.onButtonPressed(Button.A, function () {}
 ```
 
 ## Step 3 
-Text instructions
+Next drag one ``||basic:show leds||``   blocks in ``||input:onButtonPressed||`` .
+Right after the previous two blocks.
+ You will leave ``||basic:show leds||``   block empty . 
+  As shown in the example.
 ```blocks
-
+input.onButtonPressed(Button.A, function () {
+    basic.showLeds(`
+        # # # # #
+        . . . . #
+        . . . # #
+        . . . . #
+        # # # # #
+        `)
+    basic.showLeds(`
+        # # # # #
+        # . . . #
+        # . . . #
+        # . . . #
+        # # # # #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 ```
 
 ## Step 4 
-Text instructions
+Next drag three(3) ``||basic:show leds||``   blocks in ``||input:onButtonPressed||`` .
+At the end of the previous work.You will repear step 2 and 3. You will create
+a 3 in the frist ``||basic:show leds||`` . The second ``||basic:show leds||``  you will create 0.
+The last ``||basic:show leds||``  you will leave it blank.
+  As shown in the example.
+
 ```blocks
+input.onButtonPressed(Button.A, function () {
+    basic.showLeds(`
+        # # # # #
+        . . . . #
+        . . . # #
+        . . . . #
+        # # # # #
+        `)
+    basic.showLeds(`
+        # # # # #
+        # . . . #
+        # . . . #
+        # . . . #
+        # # # # #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # # # # #
+        . . . . #
+        . . . # #
+        . . . . #
+        # # # # #
+        `)
+    basic.showLeds(`
+        # # # # #
+        # . . . #
+        # . . . #
+        # . . . #
+        # # # # #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+})
 
 ```
-
+## Step 4 
+Congratulations, now you can upload this program on your micro:bit.
